@@ -53,7 +53,7 @@
                       inherit opam-file-format;
                       inherit buildDunePackage;
                       inherit version;
-                      name = "ocaml-packages";
+                      # name = "ocaml-packages";
 
                       fsq = buildDunePackage rec {
                         # inherit version;
